@@ -1,7 +1,7 @@
 public class VerifyCharacter {
 
     public boolean isNumber (char x){
-        return x >= '9' && x<= '9';
+        return x >= '0' && x<= '9' || x=='.';
     }
 
     public boolean isMathOperator(char x){
@@ -14,4 +14,7 @@ public class VerifyCharacter {
         return (x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z') || x == '$' || x == '@';
     }
 
+    public boolean isSpace(char x){
+        return x == ' ' || x == '\n' || x == '\t' || x == '\r';
+    }
 }
