@@ -1,0 +1,110 @@
+NOME DA LINGUAGEM - NOTRIN OSNOFA (NO)
+
+NO é uma linguagem fracamente tipada baseada em JAVA, com o intuito de ser voltada para programação orientada a objetos.
+
+As palavras reservadas foram pensadas para serem vista de uma perpectiva diferente, como se a pessoa estivesse olhando para seu reflexo, já que elas são identicas as palavras reservadas normais, apenas escritas de trás para frente.
+
+################ PALAVRAS RESERVADAS ############################
+
+
+
+******* Estrutura do código
+
+*niama: (main) metodo principal onde o programa será executado.
+
+Deve-se colocar " ; " para se encerrar um comando e informar final de linha.
+
+
+
+******* Modificadores de acesso
+
+*etavirp: (private) acesso apenas dentro da pasta
+*detcetorp: (protected) acesso por classes no mesmo pacote e subclasses.
+*cilbup: (public) acesso de qualquer classe
+
+
+******* Estruturas condicionais
+
+*kaerb: (break) sai do bloco de codigo em que ele está.
+
+*esac: (case) executa um bloco de código dependendo do teste do switch.
+
+*taufed: (defaut) executa esse bloco de codigo caso nenhum dos teste de "switch-case" seja verdadeiro.
+
+*esle: (else) executa um bloco de código alternativo caso o teste if seja falso.
+
+*fi: (if) usado para realizar um teste lógico de verdadeiro o falso
+
+*nruter: (return) retorna de um método sem executar qualquer código que venha depois desta linha (também pode retornar uma variável)
+
+*hctiws: (switch) indica a variável a ser comparada nas expressões case
+
+
+
+******* Estruturas de repetição
+
+*elihw: (while) executa um bloco de código repetidamente enquanto a condição for verdadeira
+
+*rof: (for) usado para realizar um loop condicional de um bloco de código.
+
+*eunitnoc: (continue) pula a execução do código que viria após essa linha e vai para a próxima passagem do loop.
+
+*od: (do) executa um bloco de código uma vez, e então realiza um teste em conjunto com o while para determinar se o bloco deverá ser executado novamente.
+
+
+******* Tipos primitivos
+
+*naeloob: (boolean) um valor indicando verdadeiro ou falso.
+
+*etyb: (byte)  um inteiro de 8 bits (signed).
+
+*rahc: (char) um caracter unicode (16-bit unsigned).
+
+*elbuod: (double) um número de ponto flutuante de 64 bits (signed).
+
+*taolf: (float) um número de ponto flutuante de 32 bits (signed).
+
+*tni: (int) um inteiro de 32 bits (signed).
+
+*gnol: (long) um inteiro de 64 bits (signed).
+
+*trohs: (short) um inteiro de 32 bits (signed).
+
+
+
+******** Impressão de dados 
+
+*ftnirp: (printf) metodo inspirado pelo "prinf" para poder realizar impressão de dados na tela.
+
+
+
+################# Operadores Matemáticos #####################
+
+|	+ |operador de soma
+|	- |operador de subtração
+|	* |operador de multiplicação
+|	/ |operador de divisão
+|	% |operador de resto de divisão
+|	^ |operador de potência
+|	= |operador de atribuição
+|	+=|operador de incremento
+|	-=|operador de decremento
+
+
+
+############# Operadores de comparação ###########################
+
+|	==|operador de igualdade
+|	<=|operador menor ou igual
+|	>=|operador maior ou igual
+|	< |operador menor que
+|	> |operador maior que
+|	!=|operador diferente
+
+
+
+############# Operadores Lógicos ######################
+
+|	&& |operador AND
+|	|| |operador OR
+|	!  |operador de negação

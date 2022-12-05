@@ -1,4 +1,9 @@
+/**
+ * @autor Nirton Afonso
+ */
+
 import java.util.ArrayList;
+import Enum.*;
 
 public class Main {
 
@@ -6,8 +11,8 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Compiler cp = new Compiler();
-        Tokens tokens;
+        Compiler cp = new Compiler("src/Text_Input.txt");
+        Tokens tokens = null;
 
 
         do {

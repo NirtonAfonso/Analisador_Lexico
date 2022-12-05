@@ -1,3 +1,11 @@
+/**
+ * Classe responsavel por ferar os tokens
+ * @autor Nirton Afonso
+ */
+
+
+import Enum.*;
+
 public class Tokens {
 
     private TokenName type;
@@ -57,10 +65,10 @@ public class Tokens {
 
     @Override
     public String toString() {
-        return "{Text='" + text + "'" +
-                ", Token=" + type + '\'' +
-                ", row=" + row +
-                ", column=" + column +
+        return "{Text='" + getText() + "'" +
+                ", Token=" + getType() + '\'' +
+                ", row=" + getRow() +
+                ", column=" + getColumn() +
                 '}';
     }
 
