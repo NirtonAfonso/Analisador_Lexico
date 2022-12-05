@@ -1,0 +1,26 @@
+niam(){
+
+	etavirp tni var;								#private int
+	etavirp taolf num2; 							#private float
+	cilbup taolf exemplo;							#public float
+
+	var = 5;
+	num2 = 3;
+	exemplo = var + num2;
+
+		fi (exemplo == 8) {						#if
+			elihw(num2>5){						#while
+				num2++;
+			}
+		}
+		esle{									#else
+			exemplo = 0;
+			ftnirp(exemplo, num2, var);			#printf
+		}
+
+	@elihw( num2 != var && num2 < exemplo ) { 		#código com erro
+		ftn$irp ( "Código com erro" );
+} 
+	
+
+}

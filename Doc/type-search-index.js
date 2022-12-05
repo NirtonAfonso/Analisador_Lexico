@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Compiler"},{"p":"<Unnamed>","l":"Main"},{"p":"Enum","l":"ReservedWord"},{"p":"Enum","l":"TokenName"},{"p":"<Unnamed>","l":"Tokens"},{"p":"<Unnamed>","l":"VerifyCharacter"}];updateSearchResults();
